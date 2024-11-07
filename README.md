@@ -33,15 +33,13 @@ Train-Test Split: The dataset was split into a training set and a test set to ev
 
 3.2 Model Training and Evaluation 
 
-We trained and evaluated four machine learning models: 
+We trained and evaluated three machine learning models: 
 
 Logistic Regression 
 
 Decision Tree Classifier 
 
 Random Forest Classifier 
-
-Support Vector Machine (SVM) 
 
 Each model was initially evaluated on accuracy, precision, recall, and F1-score. Decision Tree emerged as the best-performing model after hyperparameter tuning, which was conducted using GridSearchCV to identify the optimal parameters (criterion, max_depth, min_samples_leaf, min_samples_split). 
 
